@@ -67,10 +67,39 @@ body {
 }
 
 /* ----------------------------------------MAIN-INDEX.HTML-------------------------------------------- */
+.dark-bg {
+  background-color: #2e2f42;
+}
 
+.section-one-title {
+  font-family: "Roboto" sans-serif;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.order-button {
+  color: #ffffff;
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #4d5ae5;
+}
+
+.order-button:hover {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.18;
+  background-color: #404bbf;
+}
 /* ----------------------------------------MAIN-PORTFOLIO.HTML---------------------------------------- */
 .select-button {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #f4f4fd;
   cursor: pointer;
   font-weight: 500;
@@ -80,15 +109,8 @@ body {
   color: #4d5ae5;
 }
 .select-button:hover,
-,
 .select-button:focus {
-  background: #404bbf;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
+  background-color: #404bbf;
   color: #ffffff;
 }
 
