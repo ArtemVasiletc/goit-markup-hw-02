@@ -1,11 +1,17 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--slate);
+  background-color: var(--white);
 }
 
 :root {
   --navy-blue: #2e2f42;
+  --slate: #434455;
+  --iris: #4d5ae5;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --white: #ffffff;
+  --ocean: #404bbf;
 }
 /* -------------------------------------------------HEADER----------------------------------------- */
 .logo-header {
@@ -18,11 +24,11 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--iris);
 }
 
 .logo-header-span {
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .link {
@@ -31,7 +37,7 @@ body {
 
 .link:hover,
 .link:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 
 .list {
@@ -51,7 +57,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
 }
 
 .nav-contacts-item {
@@ -59,7 +65,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
 }
 
 .header-contacts {
@@ -68,7 +74,7 @@ body {
 
 /* ----------------------------------------MAIN-INDEX.HTML-------------------------------------------- */
 .section-one {
-  background-color: #2e2f42;
+  background-color: var(--navy-blue);
 }
 
 .section-one-title {
@@ -77,25 +83,23 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white);
 }
 .order-button {
-  color: #ffffff;
+  color: var(--white);
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: #4d5ae5;
+  background-color: var(--iris);
   cursor: pointer;
 }
 
 .order-button:hover,
 .order-button:focus {
-  font-weight: 600;
-  line-height: 1.18;
-  background-color: #404bbf;
+  background-color: var(--ocean);
 }
 
 .section-two {
@@ -113,7 +117,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .featues-list-item-descr {
@@ -123,7 +127,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
 }
 
 .section-three {
@@ -144,7 +148,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .what-image {
@@ -153,7 +157,7 @@ body {
 }
 
 .section-four {
-  background-color: #f4f4fd;
+  background-color: var(--cloud);
 }
 
 .section-four-title {
@@ -165,14 +169,14 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .our-team-list {
 }
 
 .our-team-list-item {
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 .team-image {
@@ -187,31 +191,31 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .team-member-job {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
 }
 
 /* ----------------------------------------MAIN-PORTFOLIO.HTML---------------------------------------- */
 .select-button {
   font-family: "Roboto", sans-serif;
-  background: #f4f4fd;
+  background: var(--cloud);
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--iris);
 }
 .select-button:hover,
 .select-button:focus {
-  background-color: #404bbf;
-  color: #ffffff;
+  background-color: var(--ocean);
+  color: var(--white);
 }
 
 .project-cards-list {
@@ -230,7 +234,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .project-cards-desription {
@@ -238,12 +242,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
 }
 
 /*-------------------------------------------FOOTER--------------------------------------------------- */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--navy-blue);
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -255,16 +259,16 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--iris);
 }
 
 .logo-footer-span {
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 .footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--cloud);
 }
