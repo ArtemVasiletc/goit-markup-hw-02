@@ -67,7 +67,7 @@ body {
 }
 
 /* ----------------------------------------MAIN-INDEX.HTML-------------------------------------------- */
-.dark-bg {
+.section-one {
   background-color: #2e2f42;
 }
 
@@ -81,22 +81,122 @@ body {
 }
 .order-button {
   color: #ffffff;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 
-.order-button:hover {
-  font-family: "Roboto" sans-serif;
-  font-style: normal;
+.order-button:hover,
+.order-button:focus {
   font-weight: 600;
-  font-size: 16px;
   line-height: 1.18;
   background-color: #404bbf;
 }
+
+.section-two {
+}
+.features-list {
+}
+
+.features-list-item {
+}
+
+.featues-list-item-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.featues-list-item-descr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.section-three {
+}
+
+.what-list {
+}
+
+.what-list-item {
+}
+
+.section-three-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.what-image {
+  width: 360px;
+  height: 300px;
+}
+
+.section-four {
+}
+
+.section-four-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.our-team-list {
+}
+
+.our-team-list-item {
+}
+
+.team-image {
+  width: 264px;
+  height: 260px;
+}
+
+.team-member-name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-member-job {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 /* ----------------------------------------MAIN-PORTFOLIO.HTML---------------------------------------- */
 .select-button {
   font-family: "Roboto", sans-serif;
